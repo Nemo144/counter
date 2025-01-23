@@ -32,7 +32,7 @@ Clarinet.test({
     let count = chain.callReadOnlyFn(
       "counter",
       "get-count",
-      [types.principal(deployer.address)],
+      [types?.principal(deployer.address)],
       deployer.address
     );
 
